@@ -35,6 +35,8 @@
 	font-weight: bold;
 	margin-top: 0;
 	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+
 }
 .login-form hr{
 	margin: 0 -30px 20px;
@@ -44,18 +46,24 @@
 	margin-bottom: 20px;
 }
 .login-form .btn {        
-	font-size: 16px;
-	font-weight: bold;
-	border: none;
-	background : #3598dc;
-    align-content:center;
-    margin: auto;
-	min-width: 140px;
+    padding: 8px 20px;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #3598dc;
+	border: 2px solid #3598dc;
+	min-width: 340px;
 }
-.login-form , .login-form .btn:focus {
-	background: #2389cd !important;
-	outline: none;
+.login-form .btn:hover{
+    color: #3598dc;
+    background: transparent;
+    border-color: #3598dc;
 }
+
 .login-form a {
 	color: #3b7592;
 	text-decoration: underline;
@@ -73,4 +81,10 @@
 .login-form .hint-text{
 	padding-bottom: 15px;
 	text-align: center;
+}
+.login-form .small {
+	font-size: 16px;
+}
+.login-form a {
+	color: #3598dc;
 }
