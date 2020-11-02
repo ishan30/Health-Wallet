@@ -3,7 +3,7 @@
     <div class="signup-form">
         <!-- Registration Form for user -->
         <form #registerform="ngForm"  (ngSubmit)="onSubmit(registerform.value)" novalidate>
-            <h2>Registration</h2>
+            <h2>Sign Up</h2>
         <p>Please fill in this form to create an account!</p>
         <hr>
             <!-- FirstName and LastName -->
@@ -120,7 +120,7 @@
 
             <!-- Register or Cancel -->
             <div class="text-center">
-                <button class="btn btn-primary mr-1" type="submit">Register</button>
+                <button class="btn btn-primary mr-1" type="submit" routerLink='/dashboard'>Register</button>
                 <button class="btn btn-secondary" type="reset" routerLink='/home'>Cancel</button>
             </div>
         </form>
